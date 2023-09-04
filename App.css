@@ -1,0 +1,101 @@
+input:focus,select:focus{
+outline: none;
+}
+
+body{
+  font-family: 'Arial';
+  background-color: #f4f4f4;
+  padding: 30px;
+  color: #333;
+  background-image: linear-gradient(to left, rgb(0, 255, 0),rgb(0, 209, 143));
+  background-size: 500% 100%;
+}
+
+.card{
+  margin-top: 5%;
+  margin-left:30% ;
+  background-color: #3f3f3f;
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 400px;
+  border-radius: 10px;
+  transition: all 1s;
+  align-items: center;
+  cursor: pointer;
+}
+ .card:hover{
+  transform: scale(1.1);
+ }
+ .img1{
+  border-radius: 10px;
+  margin: 5px;
+ }
+
+.app{
+  background-color: #efefef;
+  max-width: 600px;
+  margin: 0 auto 300px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+h1{
+  text-align: center;
+
+}
+h2{
+  margin-bottom: 10px;
+}
+p{
+  margin: 10px 0;
+}
+input{
+  box-sizing: border-box;
+}
+button{
+  background-color: #333974;
+  color: white;
+  border:  none;
+  border-radius: 5px;
+padding:  5px 10px;
+cursor: pointer;
+opacity: .8;
+font-weight: 800;
+box-sizing: border-box;
+}
+button:hover{
+  opacity: 1;
+}
+.todo-form{
+
+  padding-bottom: 1.5rem;
+}
+input,select{
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+
+}
+.complete{
+  background-color: rgb(0, 255, 0);
+  margin-right:-200px !important ;
+}
+.remove{
+  background-color: rgb(0, 209, 143);
+}
+.todo-list{
+  margin-bottom: 20px;
+  padding-bottom:20px ;
+  border-bottom: 1px solid #333;
+}
+.todo{
+  background-color:  #fff;
+  box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
